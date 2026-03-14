@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./breachwatch-backend
+    container_name: breachwatch-api
+    ports:
+      - "10000:10000"
+    networks:
+      - breachwatch-net
+
+  frontend:
+    build: ./breachwatch-frontend
+    container_name: breachwatch-ui
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    networks:
+      - breachwatch-net
+
+networks:
+  breachwatch-net:
+    driver: bridge
