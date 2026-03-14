@@ -1,0 +1,6 @@
+[submodule "breachwatch-backend"]
+	path = breachwatch-backend
+	url = https://github.com/Sreekar-Reddy-D/breachwatch-backend.git
+[submodule "breachwatch-frontend"]
+	path = breachwatch-frontend
+	url = https://github.com/Sreekar-Reddy-D/breachwatch-frontend.git
