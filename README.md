@@ -2,6 +2,9 @@
 
 This is the central deployment repository for **BreachWatch**, a secure password-checking application. It utilizes **Git Submodules** and **Docker Compose** to orchestrate the frontend and backend microservices into a single, cohesive local development environment.
 
+## Live Demo
+ Frontend: https://breachwatch-frontend.vercel.app
+
 ## Architecture
 
 This repository links two separate codebases:
